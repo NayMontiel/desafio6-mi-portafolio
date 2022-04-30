@@ -65,6 +65,7 @@ section .title{
 }
 section .resumen{
     letter-spacing: 1px;
+    font-weight: 500;
 }
 section .label{
     color: #fc3468;
@@ -132,7 +133,6 @@ footer .container p{
     color: #fc3468;
     font-weight: 500;
 }
-
 /* responsive */
 /* dispositivos sm */
 @media screen and (max-width: 576px) {}
