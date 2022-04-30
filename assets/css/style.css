@@ -11,11 +11,9 @@ header .nav{
 header .logo{
     font-size: 16px;
     font-weight: 300;
-    
 }
 header .logo .icon{
     color: #fc3468;
-    
 }
 header .menu .c1{
     font-weight: 500;
@@ -29,11 +27,9 @@ header .menu .c3{
     font-weight: 500;
     background-color: #ff6289
 }
-
 header .menu .c1:hover{background: #fc3468;}
 header .menu .c2:hover{background: #fc3468;}
 header .menu .c3:hover{background: #fc3468;}
-
 /* main-portafolio */
 .portafolio{
     border-top: 5px solid #fc3468;
@@ -115,7 +111,7 @@ section .progress-bar{
     width: 100px;
     border: none;
     border-radius: 3px;
-    padding: 7px, 30px;
+    padding: 7px 30px;
     font-weight: 500;
     cursor: pointer;
 }
