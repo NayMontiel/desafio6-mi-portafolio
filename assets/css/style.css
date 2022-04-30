@@ -1,0 +1,161 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'Radio Canada', sans-serif;
+}
+/* header */
+header .nav{
+    min-height: 80px;
+    overflow: hidden;
+    background-color: rgb(243, 213, 225);
+}
+header .logo{
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+header .logo .icon{
+    color: #fc3468;
+    
+}
+header .menu .c1{
+    font-weight: 500;
+    background-color: #ffc2cd
+}
+header .menu .c2{
+    font-weight: 500;
+    background-color: #ff93ac
+}
+header .menu .c3{
+    font-weight: 500;
+    background-color: #ff6289
+}
+
+header .menu .c1:hover{background: #fc3468;}
+header .menu .c2:hover{background: #fc3468;}
+header .menu .c3:hover{background: #fc3468;}
+
+/* main-portafolio */
+.portafolio{
+    border-top: 5px solid #fc3468;
+    background-color: rgb(243, 213, 225);
+}
+main .titulo{
+    color: #fc3468;
+    font-weight: 300;
+    font-size: 40px;
+}
+main .card-title{
+    color: #fc3468;
+    font-weight: 500;
+}
+main .card-title:hover{
+    color: #ff93ac;
+}
+/* acerca de */
+section #foto{
+   width: 200px;
+   height: 200px; 
+}
+section .name{
+    color: #fc3468;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+section .title{
+    color: #fc3468;
+    font-weight: 300;
+    font-size: 40px;
+}
+section .resumen{
+    letter-spacing: 1px;
+}
+section .label{
+    color: #fc3468;
+    font-weight: 500;
+    font-size: 18px;
+}
+section .progress{
+    background-color: #ff93ac;
+    border-radius: 0;
+    height: 25px;
+}
+section .progress-bar{
+    background-color: #fc3468;
+    line-height: 25px;
+    padding-left: 20px;
+}
+/* contacto */
+.contacto{
+    border-top: 5px solid #fc3468;
+    border-bottom: 5px solid #fc3468;
+}
+.contacto .titulo{
+    color: #fc3468;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.contacto .formulario input[type="text"],
+.contacto .formulario input[type="email"],
+.contacto .formulario textarea{
+    padding: 15px;
+    border: none;
+    background-color: rgb(243, 213, 225);
+    font-weight: 500;
+}
+.contacto .formulario textarea{
+    height: 150px;
+    min-height: 150px;
+    max-height: 250px;
+}
+.contacto .boton{
+    background-color: #ff6289;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    padding: 7px, 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.contacto .boton:hover{
+    background-color: #fc3468;
+}
+/* footer */
+footer .container{
+    background-color:rgb(243, 213, 225) ;
+}
+footer .container .icon{
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+footer .container p{
+    color: #fc3468;
+    font-weight: 500;
+}
+
+/* responsive */
+/* dispositivos sm */
+@media screen and (max-width: 576px) {}
+/* dispositivos md */
+@media screen and (max-width: 768px) {}
+/* dispoaitivos lg */
+@media screen and (max-width: 992px) {
+    .logo {
+        height: 76px;
+    }
+    header .menu{
+        height: 76px;
+    }
+    header .menu a{
+        width: 100%;
+    }
+
+}
+/* dispositivos xl */
+@media screen and (max-width: 1200px) {}
+/* dispositivos xxl */
+@media screen and (max-width: 1400px) {}
